@@ -34,8 +34,6 @@ public class ConfigManager {
 
         try {
             int minimum = section.getInt("minimum-drop");
-            System.out.println(minimum);
-            System.out.println(entityType + " " + minimum);
             int maximum = section.getInt("maximum-drop");
             return new XpDrop(minimum, maximum);
         } catch (Exception e) {

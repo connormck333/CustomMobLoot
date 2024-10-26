@@ -33,9 +33,7 @@ mobs:
 
 ## Commands
 /mobloot drops custom {on/off} - Toggle all custom drops on or off  
-/mobloot drops all {on/off} - Toggle all drops on or off  
-/mobloot enable - Enable CustomMobLoot plugin  
-/mobloot disable - Disable CustomMobLoot plugin  
+/mobloot drops all {on/off} - Toggle all drops on or off
 
 ## Dependencies
 There are no dependencies for this plugin :)  
