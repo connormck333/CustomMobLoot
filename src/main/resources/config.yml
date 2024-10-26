@@ -1,0 +1,20 @@
+mobs:
+  villager:
+    xp:
+      minimum-drop: 10
+      maximum-drop: 30
+    drops:
+      ender_pearl:
+        chance: 50
+        minimum-drop: 1
+        maximum-drop: 10
+      emerald:
+        chance: 50
+        minimum-drop: 1
+        maximum-drop: 5
+  warden:
+    drops:
+      diamond_block:
+        chance: 10
+        minimum-drop: 1
+        maximum-drop: 5
