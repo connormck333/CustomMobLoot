@@ -19,6 +19,14 @@ public class EntityDeathListener implements Listener {
     @EventHandler
     public void onEntityDeath(EntityDeathEvent e) {
         Entity entity = e.getEntity();
+        if (!mobLootManager.areCustomDropsEnabled()) {
+            if (!mobLootManager.isAllDropsEnabled()) {
+                e.getDrops().clear();
+            }
+
+            return;
+        }
+
         MobDrop mobDrop = mobLootManager.getMobDrop(entity.getType());
         if (mobDrop == null) {
             return;

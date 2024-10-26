@@ -2,3 +2,7 @@ name: CustomMobLoot
 version: '1.0-SNAPSHOT'
 main: com.devConnor.customMobLoot.CustomMobLoot
 api-version: '1.19'
+commands:
+  mobloot:
+    description: "Main command for the CustomMobLoot plugin"
+    usage: "/mobloot drops custom {on/off}"
