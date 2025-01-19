@@ -28,7 +28,7 @@ public class Drop {
         ItemStack itemStack = new ItemStack(material);
 
         Random random = new Random();
-        int amount = random.nextInt((maximumDrop - minimumDrop) + 1);
+        int amount = random.nextInt((maximumDrop - minimumDrop) + 1) + minimumDrop;
         itemStack.setAmount(amount);
 
         return itemStack;

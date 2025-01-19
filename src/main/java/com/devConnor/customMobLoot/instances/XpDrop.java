@@ -16,6 +16,6 @@ public class XpDrop {
     }
 
     public int getXpDrop() {
-        return new Random().nextInt((maximumDrop - minimumDrop) + 1);
+        return new Random().nextInt((maximumDrop - minimumDrop) + 1) + minimumDrop;
     }
 }
