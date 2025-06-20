@@ -1,4 +1,6 @@
 # CustomMobLoot
+Check it out on Spigot with 100+ downloads: [here](https://www.spigotmc.org/resources/1-19-1-21-custommobloot.120424/)  
+
 CustomMobLoot is a powerful and versatile plugin designed for Minecraft server owners who want complete control over mob drops and experience points. With CustomMobLoot, you can configure custom loot tables for each mob type, setting unique items, drop chances, amounts, and XP rewards based on your server's needs. This allows for endless customization possibilities, whether you're building a classic RPG experience, creating rare item drops, or simply balancing the in-game economy.
 
 ![Demo](./resources/demo.gif)
